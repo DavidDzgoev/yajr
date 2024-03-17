@@ -1,6 +1,8 @@
 import uvicorn
 from fastapi import FastAPI
 
+import yajr.models
+
 app = FastAPI()
 
 

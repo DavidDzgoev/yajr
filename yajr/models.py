@@ -91,4 +91,5 @@ class Competition(Base):
 
     id_country: Mapped[int] = mapped_column(ForeignKey("country.id"), index=True)
 
+
 Base.metadata.create_all(engine)

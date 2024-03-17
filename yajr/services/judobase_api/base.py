@@ -63,5 +63,3 @@ class JudoBaseApi:
             "params[id_competition]": id_competition,
         }
         return self.get_json(params)
-
-print(JudoBaseApi().find_contest(id_person="9396"))
